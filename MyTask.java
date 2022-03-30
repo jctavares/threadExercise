@@ -3,6 +3,7 @@ public class MyTask extends Thread {
 
     public MyTask(String anyData) {
         this.anyData = anyData;
+        this.run();
     }
 
     public void run() {
